@@ -1,6 +1,6 @@
 # Build image
 ########################
-FROM golang:1.11.5-alpine3.9 as builder
+FROM golang:1.12.5-alpine3.9 as builder
 
 WORKDIR /var/tmp/app
 
