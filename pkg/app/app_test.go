@@ -1,9 +1,9 @@
-package example
+package app
 
 import (
 	"testing"
 )
 
 func TestHelloWorld(*testing.T) {
-	HelloWorld()
+	Run()
 }

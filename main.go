@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/pasdam/go-project-template/pkg/example"
+	"github.com/pasdam/go-project-template/pkg/app"
 )
 
 func main() {
-	example.HelloWorld()
+	app.Run()
 }
