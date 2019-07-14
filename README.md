@@ -1,6 +1,6 @@
 # go-project template
 
-![Build status](https://gitlab.com/pasdam-github/go-project-template/badges/master/build.svg)
-![Coverage](https://gitlab.com/pasdam-github/go-project-template/badges/master/coverage.svg?job=inspect)
+[![pipeline status](https://gitlab.com/pasdam-github/project-template-go/badges/master/pipeline.svg)](https://gitlab.com/pasdam-github/project-template-go/pipelines)
+[![coverage report](https://gitlab.com/pasdam-github/project-template-go/badges/master/coverage.svg)](https://gitlab.com/pasdam-github/project-template-go/pipelines)
 
 This repository contains a template for a go project.
