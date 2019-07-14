@@ -11,7 +11,7 @@ before_script:
   - apk add git make
 
 inspect:
-  coverage: 'coverage: \d+.\d+% of statements'
+  coverage: '/coverage: \d+.\d+% of statements/'
   stage: inspect
   script:
     - make go-coverage
