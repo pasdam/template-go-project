@@ -1,5 +1,6 @@
 .build
 .git
+.github
 .gitignore
 .gitmodules
 .vscode
