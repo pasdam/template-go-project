@@ -1,0 +1,11 @@
+prompts:
+  - name: description
+    type: string
+    default: This was generated from [project-template-go](github.com/pasdam/project-template-go).
+    message: Enter the README description
+  - name: modulePath
+    type: string
+    message: Enter the go module path
+  - name: projectName
+    type: string
+    message: Enter the project name
