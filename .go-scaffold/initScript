@@ -1,0 +1,13 @@
+#!/bin/sh
+
+MAKEFILES_DIR=scripts/makefiles/third_party/pasdam/makefiles
+rm -rf $MAKEFILES_DIR
+git --no-optional-locks \
+    -c color.branch=false \
+    -c color.diff=false \
+    -c color.status=false \
+    -c diff.mnemonicprefix=false \
+    -c core.quotepath=false \
+    -c credential.helper=sourcetree \
+    submodule add -f git@github.com:pasdam/makefiles.git \
+    $MAKEFILES_DIR
