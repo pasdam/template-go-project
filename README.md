@@ -1,5 +1,6 @@
 # project-template-go
 
-[![CI Status](https://github.com/pasdam/project-template-go/workflows/Continuous%20integration/badge.svg)](https://github.com/pasdam/go-scaffold/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/pasdam/template-go-project)](https://goreportcard.com/report/github.com/pasdam/template-go-project)
+[![CI Status](https://github.com/pasdam/template-go-project/workflows/Continuous%20integration/badge.svg)](https://github.com/pasdam/template-go-project/actions)
 
 This repository contains a template for a go project.
