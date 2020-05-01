@@ -19,14 +19,3 @@ jobs:
         with:
           name: coverage.html
           path: /tmp/coverage.html
-
-  docker-build:
-    name: Build docker image
-    runs-on: ubuntu-latest
-    needs: [checks]
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          submodules: true
-      - name: Build the Docker image
-        run: make docker-build
