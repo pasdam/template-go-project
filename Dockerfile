@@ -1,6 +1,6 @@
 # Build image
 ########################
-FROM golang:1.13.0-alpine3.10 as builder
+FROM golang:1.14.2-alpine3.11 as builder
 
 WORKDIR /var/tmp/app
 
@@ -17,7 +17,7 @@ RUN go build -o .build/app .
 
 # Final image
 ########################
-FROM alpine:3.10
+FROM alpine:3.11.6
 
 WORKDIR /opt/app
 
