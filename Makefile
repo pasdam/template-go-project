@@ -11,9 +11,3 @@ include scripts/makefiles/third_party/pasdam/makefiles/help.mk
 ## clean: Remove all artifacts
 .PHONY: clean
 clean: go-clean docker-clean
-
-## gitlab-ci-test: Run the stages locally to verify that they execute correctly
-.PHONY: gitlab-ci-test
-gitlab-ci-test:
-	@gitlab-runner exec docker inspect
-	@gitlab-runner exec docker build
