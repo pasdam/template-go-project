@@ -17,7 +17,7 @@ RUN go build -o .build/app .
 
 # Final image
 ########################
-FROM alpine:3.13.0
+FROM alpine:3.13.1
 
 WORKDIR /opt/app
 
