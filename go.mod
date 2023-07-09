@@ -1,5 +1,5 @@
-module github.com/pasdam/go-project-template
+module github.com/pasdam/template-go-project
 
-replace github.com/pasdam/go-project-template/pkg => ./pkg
+replace github.com/pasdam/template-go-project/pkg => ./pkg
 
 go 1.15
